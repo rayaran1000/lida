@@ -1,5 +1,5 @@
-from lida.components import Manager
-from llmx import llm, TextGenerationConfig
+from local_packages.lida.components import Manager
+from local_packages.llmx import llm, TextGenerationConfig
 import os
 lida = Manager(text_gen=llm("openai"))
 
